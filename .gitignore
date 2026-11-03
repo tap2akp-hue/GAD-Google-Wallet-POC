@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+*.pem, *.p12, *.key: certificates aur private keys.
+*service-account*.json, credentials*.json: Google service account key.
+
+# Secrets / credentials (Google Wallet POC) 
+*.pem 
+*.p12 
+*.key 
+*service-account*.json 
+credentials*.json
